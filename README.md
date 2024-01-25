@@ -1,2 +1,2 @@
 # adoption-app
-Learning React.js
+Learning and applying React.js
