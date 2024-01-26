@@ -7,15 +7,20 @@ const Pet = (props) => {
 };
 
 const App = () => {
-  return React.createElement(
-    "div",
-    {},
-    [
-      React.createElement("h1", {}, "Adopt Me!"),
-      React.createElement(Pet, {name: "Fanfan", animal: "Dog", breed: "Corgi",}),
-      React.createElement(Pet, {name: "Felix", animal: "Cat", breed: "Siamese",}),
-      React.createElement(Pet, {name: "Garfield", animal: "Cat", breed: "British Shorthair",}),
-    ]);
+  return React.createElement("div", {}, [
+    React.createElement("h1", {}, "Adopt Me!"),
+    React.createElement(Pet, { name: "Fanfan", animal: "Dog", breed: "Corgi" }),
+    React.createElement(Pet, {
+      name: "Felix",
+      animal: "Cat",
+      breed: "Siamese",
+    }),
+    React.createElement(Pet, {
+      name: "Garfield",
+      animal: "Cat",
+      breed: "British Shorthair",
+    }),
+  ]);
 };
 
 const container = document.getElementById("root");
